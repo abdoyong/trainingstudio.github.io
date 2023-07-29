@@ -1,0 +1,640 @@
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+/*starat nav*/
+.navbar
+{
+    background-color:rgba(250,250,250,0.1);
+    z-index: 5;
+    position: relative;
+    padding:12px 0px;
+}
+.navbar-brand
+{
+    font-size:30px;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bolder;
+}
+.navbar-light .navbar-brand
+{
+    color:#fff;
+}
+.std
+{
+    color: #ed563b;;
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+    color:#ed563b;
+}
+.mt
+{
+    margin-top:15px;
+}
+.navbar-expand-lg .navbar-nav
+{
+    margin-left:10px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.nav-link
+{
+    text-transform:uppercase;
+    font-size:13px;
+    margin:11px 15px 0px 15px;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color:white;
+
+}
+.bt
+{
+    background-color:#ed563b;
+    padding:10px 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color:#ed563b;
+}
+.bt:hover
+{
+    background-color: #ef7a65;
+}
+/*end nav*/
+/*start member section*/
+.member video
+{
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    margin-top:-79px;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom:-16px;
+    background-color: rgba(35,45,57,0.8);
+    z-index: 2;
+}
+.containerr 
+{
+    align-items: center;
+    text-align: center;
+    z-index:5;
+    top:35%;
+    position:relative;
+    color:#fff;
+    
+}
+.whgs
+{
+    text-transform: uppercase;
+    font-size:18px;
+    font-weight:800px;
+    letter-spacing: 0.5px;
+}
+.ewo
+{
+    text-transform: uppercase;
+    font-size:85px;
+    font-weight:800px;
+    letter-spacing: 0.5px;
+}
+.gym
+{
+    color:#ed563b; 
+}
+.btn
+{
+    background-color:#ed563b;
+    padding:10px 10px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+/*end member section*/
+/*start choose prgram section*/
+.firstcenter
+{
+    color:#000;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.same
+{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.program
+{
+    color:#ed563b;
+}
+.choose .line-dec
+{
+    margin:20px 0
+}
+.choose p
+{
+    color:#7a7a7a;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.choose .section .section-leftimg 
+{
+    float:left;
+    margin-right: 20px;
+}
+.choose .section .section-rghbdy
+{
+    display: inline
+}
+
+.section 
+{
+    font-family: sans-serif;
+}
+.section p 
+{
+    margin-bottom: 5px;
+}
+.rightcolomn li
+{
+list-style: none;
+margin-bottom: 50px;
+text-transform: capitalize;
+}
+.choose ul
+{
+    margin:50px 0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+.choose .section a
+{
+    color:#ed563b;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight:500;
+}
+.choose .section h3 
+{
+    font-weight:700;
+    font-size:20px
+}
+/*end choose prgram section*/
+/*start begin section*/
+.begin
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../images/cta-bg.jpg');
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    padding:100px 0;
+}
+.begin h2 
+{
+    text-transform: uppercase;
+    font-size: 40px;
+    color:#fff;
+    margin-bottom: 30px;
+}
+.begin .today 
+{
+    color:#ed563b;
+}
+.begin p 
+{
+    color:#fff;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom:40px;
+}
+.begin .bea
+{
+    background-color:#ed563b;
+    padding:15px 20px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+/*end begin section*/
+/*start classes section*/
+.firshh
+{
+    color:#000;
+    text-align: center;
+    margin-top: 150px;
+}
+.classes .line-dec
+{
+    margin:20px 0
+}
+.classes p
+{
+    color:#7a7a7a;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.classes .container 
+{
+    margin-top: 100px;
+}
+.classes-colomn
+{
+list-style: none;
+margin-top:31px;
+padding:0 0;
+}
+.classes .classes-list
+{
+    margin-bottom: 90px;
+    font-family: sans-serif;
+}
+
+.classes-list a 
+{
+    width:300px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    padding:35px 50px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius:5px;
+    letter-spacing: 1px;
+    
+}
+
+.classes-list a span:hover
+{
+    color:#ed563b;
+    cursor: pointer;
+}
+.classes-list a img 
+{
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.classes .classes-colomn .classes-lista .link 
+{
+    background-color:#ed563b;
+    padding:20px 80px;
+    width:100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius:5px;
+}
+@media (max-width: 1199.98px) 
+{
+    .classes .classes-colomn 
+    {
+        margin-bottom: 100px;
+    }
+} 
+
+
+.classes .classes-colomn .classes-lista .link:hover
+{
+    cursor:pointer;
+    background-color:#ef7a65;
+}
+.classes .second h2
+{
+    margin:20px 0px;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.classes .second p 
+{
+    margin-bottom:40px;
+}
+@media (max-width: 991.98px) 
+{
+.classes .second img
+{
+    width:475px
+}
+}
+.classes .second a 
+{
+    background-color:#ed563b;
+    padding:13px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.classes .second a:hover
+{
+    background-color:#ef7a65;
+    text-decoration-line: none;
+}
+/*end classes section*/
+/*start schedules secion*/
+.schedules-section
+{
+    background-image: url(../images/schedule-bgg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding:150px 0;
+    position: relative;
+    z-index: -1;
+}
+
+.schedules-section .schfi
+{
+    color:#fff;
+    text-align: center;
+
+    position: relative;
+    
+}
+.schedules-section .schfi img 
+{
+    margin:20px 0;
+}
+.schedules-section .schfi p 
+{
+    font-family:'poppins',sans-serif;
+    text-transform: capitalize;
+}
+.schedules-section .schedule-days 
+{
+    list-style: none;
+    padding:0px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.schedules-section .schedule-days li 
+{
+    display: inline-block;
+    text-transform: capitalize;
+    color:#fff;
+    font-family: sans-serif;
+    margin-left: 8px;
+}
+.schedules-section .schedule-days li span
+{
+    margin-left: 8px;
+    color:#fff;
+
+}
+.schedules-section .schedule-days li:hover 
+{
+    cursor:pointer;
+    color:#ed563b;
+}
+.schedules-section table 
+{
+    border:1x solid #fff;
+    color:#fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+}
+.schedules-section table tr td 
+{
+    border:1px solid #fff;
+    height:100px;
+    width:200px;
+    text-transform: capitalize;
+}
+/*end schedules secion*/
+/*start expert section*/
+.expert .firstp
+{
+    color:#000;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+    
+}
+.expert .firstp img 
+{
+    margin:20px 0;
+}
+.expert .firstp p
+{
+    font-family:'poppins',sans-serif;
+    text-transform: capitalize;
+}
+.expert .secondp 
+{
+    margin-top: 80px;
+    
+}
+.expert .secondp .thumbnail
+{
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius:5px;
+    text-align: left;
+    padding:40px
+}
+.expert .secondp .thumbnail img 
+{
+    width:270px;
+    height:204.81px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+
+.expert .secondp .thumbnail .caption .stgh 
+{
+    margin: 30px 0px 10px;
+    color:#ed563b;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.expert .secondp .thumbnail .caption h4 
+{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color:#232d39;
+    letter-spacing:0.5px;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+}
+.expert .secondp .thumbnail .caption .lrm 
+{
+    font-size: 14px;
+    color:#7a7a7a;
+    line-height:25px;
+    margin:0px 0px 20px;
+}
+.expert .secondp .thumbnail .caption ul
+{
+    list-style: none;
+    padding:0;
+    margin:0px;
+}
+.expert .secondp .thumbnail .caption ul li 
+{
+    display: inline-block;
+    margin-right:10px;
+    
+}
+.expert .secondp .thumbnail .caption ul li a
+{
+    color:#ccc;
+    font-size: 18px;
+    transition:all 0.3s ease-in-out;
+}
+.fa 
+{
+    transition:all 0.5s ease-in-out;
+}
+.expert .secondp .thumbnail .caption ul li a .fa-facebook:hover
+{
+    color:#1877f2;
+    transition:all 0.3s ease-in-out;
+}
+.expert .secondp .thumbnail .caption ul li a .fa-twitter:hover
+{
+    color:#1da1f2;
+    transition:all 0.3s ease-in-out;
+}
+.expert .secondp .thumbnail .caption ul li a .fa-linkedin:hover
+{
+    color:#e68523;
+    transition:all 0.3s ease-in-out;
+}
+.expert .secondp .thumbnail .caption ul li a .fa-behance:hover
+{
+    color:#1769ff;
+    transition:all 0.3s ease-in-out;
+}
+/*end expert section*/
+/*end sign section*/
+.sign 
+{
+    margin-top: 150px;
+}
+@media (max-width: 991.98px) 
+{
+.sign iframe
+{
+    width:485px
+}
+}
+.sign .sign-in
+{
+    padding: 80px;
+    background-image: url(../images/contact-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.sign form 
+{
+    background-color:#fff;
+    border-radius:5px;
+    padding:30px
+}
+.sign .sign-in form input 
+{
+    color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    line-height: 40px;
+    padding: 0px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.sign .sign-in form textarea
+{
+    color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    line-height: 40px;
+    padding: 0px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+}
+.sign .sign-in form button
+{
+    background-color:#ed563b;
+    padding:13px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform: capitalize;
+    margin-top: 40px;
+    border:none
+}
+.sign .sign-in form button:hover
+{
+    background-color:#ef7a65
+}
+/*end sign section*/
+/*start copyright section*/
+.copyright
+{
+    padding-top:30px;
+    text-align: center;
+}
+.copyright p 
+{
+    font-family: sans-serif;
+    font-size:14px;
+    text-transform: capitalize;
+    color:#333
+}
+.copyright p span a
+{
+    color:#ed563b
+}
+/*end copyright section*/
+
+
+
+
+
+
+
